@@ -1,9 +1,9 @@
-# Sistema de reconocimiento de espcies de flores #
+# Sistema de reconocimiento de especies de flores #
 
 ![alt text](https://github.com/Gogul09/flower-recognition/blob/master/out.gif)
 
 
-### Summary of the project ###
+### Resumen del proyecto ###
 
 * Base de datos **FLOWERS17** and **FLOWERS102**.
 * Modelos usados    - **VGG16, VGG19**.
