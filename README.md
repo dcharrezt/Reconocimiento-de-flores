@@ -1,6 +1,6 @@
 # Sistema de reconocimiento de especies de flores #
 
-![alt text](https://github.com/uddua/Reconocimiento-de-flores/blob/master/Starcraft_Bot/myimage.gif)
+![alt text](https://github.com/uddua/Reconocimiento-de-flores/blob/master/myimage.gif)
 
 
 ### Resumen del proyecto ###
