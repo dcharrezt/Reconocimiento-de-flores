@@ -2,10 +2,17 @@
 
 ![alt text](https://github.com/uddua/Reconocimiento-de-flores/blob/master/myimage.gif)
 
+## Integrantes ##
+* Diego David Charrez Ticona
+* Edson Arratea Ope
 
 ### Resumen del proyecto ###
 
 * Base de datos **FLOWERS17** and **FLOWERS102**.
+
+[FLOWERS17](http://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html)
+
+[FLOWERS102](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
 * Modelos usados    - **VGG16, VGG19**.
 * Weights used    - **ImageNet**
 * Clasificador usado - **Logistic Regression**
