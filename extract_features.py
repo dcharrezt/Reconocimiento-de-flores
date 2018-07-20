@@ -56,30 +56,14 @@ elif model_name == "vgg19":
 	base_model = VGG19(weights=weights)
 	model = Model(input=base_model.input, output=base_model.get_layer('fc1').output)
 	image_size = (224, 224)
-elif model_name == "resnet50":
-	base_model = ResNet50(weights=weights)
-	model = Model(input=base_model.input, output=base_model.get_layer('flatten').output)
-	image_size = (224, 224)
 elif model_name == "inceptionv3":
 	base_model = InceptionV3(include_top=include_top, weights=weights, input_tensor=Input(shape=(299,299,3)))
 	model = Model(input=base_model.input, output=base_model.get_layer('custom').output)
 	image_size = (299, 299)
-elif model_name == "inceptionresnetv2":
-	base_model = InceptionResNetV2(include_top=include_top, weights=weights, input_tensor=Input(shape=(299,299,3)))
-	model = Model(input=base_model.input, output=base_model.get_layer('custom').output)
-	image_size = (299, 299)
-elif model_name == "mobilenet":
-	base_model = MobileNet(include_top=include_top, weights=weights, input_tensor=Input(shape=(224,224,3)), input_shape=(224,224,3))
-	model = Model(input=base_model.input, output=base_model.get_layer('custom').output)
-	image_size = (224, 224)
-elif model_name == "xception":
-	base_model = Xception(weights=weights)
-	model = Model(input=base_model.input, output=base_model.get_layer('avg_pool').output)
-	image_size = (299, 299)
 else:
 	base_model = None
 
-print ("[INFO] successfully loaded base model and model...")
+print ("[INFO] Modelo exitosamente cargado ...")
 
 # path to training dataset
 train_labels = os.listdir(train_path)
