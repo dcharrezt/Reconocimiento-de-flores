@@ -29,6 +29,10 @@
 ### Requerimientos del sistema
 * Este proyecto fue probado en ubuntu 14.04.
 
+### Arquitectura ###
+![VGG19](https://github.com/uddua/Reconocimiento-de-flores/blob/master/vgg16.png)
+
+![VGG19](https://github.com/uddua/Reconocimiento-de-flores/blob/master/vgg19.png)
 
 ### Uso ###
 * Organizar base de datos                                - `python organize_flowers17.py`
