@@ -106,9 +106,9 @@ for image_path in test_images:
 	prediction 	= train_labels[preds[0]]
 	
 	# perform prediction on test image
-	print ("I think it is a " + train_labels[preds[0]])
+	print ("Esta imagen es: " + train_labels[preds[0]])
 	img_color = cv2.imread(path, 1)
-	cv2.putText(img_color, "I think it is a " + prediction, (140,445), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+	cv2.putText(img_color, "Esta imagen es: " + prediction, (140,445), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
 	cv2.imshow("test", img_color)
 
 	# key tracker
