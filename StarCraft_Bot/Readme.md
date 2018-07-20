@@ -3,7 +3,7 @@
 
 Ejecucion de prueba zerg vs zerg, nuestro bot logra defenderse.
 
-![alt text](https://github.com/uddua/Reconocimiento-de-flores/tree/master/StarCraft_Bot/myimage.gif)
+![alt text](https://github.com/uddua/Reconocimiento-de-flores/blob/master/StarCraft_Bot/myimage.gif)
 
 * Primero se hace que los Zerg Drone recolectan 250 de cristal y se crea un vespene gas más tres Zerg Drone.
 * Mientras el Hatchery este desocupado se crea Zerg Drones y se manda a recolectar minerales hasta tener 8 Zerg Drone y luego se crea 2 mas para que recolectan gas.
