@@ -14,20 +14,18 @@ This repo contains the code for conference paper titled **Flower Species Recogni
 
 **Update (16/12/2017)**: Included two new deep neural net models namely `InceptionResNetv2` and `MobileNet`.
 
-### Dependencies ###
-* Theano or TensorFlow `sudo pip install theano` or `sudo pip install tensorflow`
+### Dependencias ###
+* Theano o TensorFlow `sudo pip install theano` or `sudo pip install tensorflow`
 * Keras `sudo pip install keras`
 * NumPy `sudo pip install numpy`
-* matplotlib `sudo pip install matplotlib` and you also need to do this `sudo apt-get install python-dev`
+* matplotlib `sudo pip install matplotlib` tambien se necesita este `sudo apt-get install python-dev`
 * seaborn `sudo pip install seaborn`
 * h5py `sudo pip install h5py`
 * scikit-learn `sudo pip install scikit-learn`
 
-### System requirements
-* This project used Windows 10 for development purposes and Odroid-XU4 for testing purposes.
+### Requerimientos del sistema
+* Este proyecto fue probado en ubuntu 14.04.
 
-### Licence
-MIT License
 
 ### Usage ###
 * Organize dataset                      - `python organize_flowers17.py`
